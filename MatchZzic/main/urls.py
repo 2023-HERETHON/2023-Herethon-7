@@ -1,4 +1,6 @@
 from django.urls import path
+
+from MatchZzic.main import admin
 from . import views
 from main.views import main
 
