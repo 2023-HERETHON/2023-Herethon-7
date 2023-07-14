@@ -2,24 +2,27 @@
 2023 여기톤 : HERETHON 7조
 <hr/>
 
-- **서비스 소개**
-  <br>
+## ✔️서비스 소개 
   ![image](https://github.com/2023-HERETHON/2023-Herethon-7/assets/102652293/0f123f68-6bea-487e-b727-038f935c8044)
-  </br>
-  당신과 마주친 순간, 매치⚡직 여성의 여행 동행 찾기 서비스
-  
+  <br>당신과 마주친 순간, 매치⚡직 여성의 여행 동행 찾기 서비스</br>
+  <br>안녕하세요. 저희는 럭키세븐팀으로 2023 여기톤 주제 중 여성과 여행이라는 키워드를 선정하여 '여성의 여행 동행 찾기 서비스'를 기획하였습니다. </br>
+  <br>[매치직]은 오직 여성만을 위한 동행 찾기 서비스로 자신의 여행타입을 설정하고, 동행할 여행지, 여행타입의 유사도를 기준으로 여행동행자를 추천해줍니다. 사용자는 추천된 동행자와 함께하고 싶다면 매칭을 선택해 채팅할 수 있습니다. </br>
 
- 
+### [매치직]의 기능 
+여행타입과 동행할 여행지를 기준으로 동행자 추천
 
-- **기술 스택**
+### [매치직]의 수익창출
+초기 매치직은 사람간의 관계만을 이어주기 때문에 직접적인 수익창출은 어렵습니다. 그러나 저희는 해당 서비스를 커뮤니티에서 시작하여 수익 창출까지 연계하고자 합니다. 
+현재 서비스를 조성하는 단계에선 배너 광고를 추가하여 단순 광고료를 수익으로 얻고, 이후 서비스 성장 단계에서 포인트 적립 및 여행 예약 서비스를 구축하여 직접적으로 수익을 창출 예정입니다.
 
+## ✔️기술 스택
   <span>프론트엔드: </span> <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
   <span>백엔드: </span><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=Django&logoColor=white">
 
   <span>기획·디자인: </span> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
-- **팀원 소개**
+## 🧑‍🤝‍🧑 팀원 소개 
   <table border="" cellspacing="0" cellpadding="0" width="100%">
   <tr width="100%">
   <td align="center">정민지</a></td>
@@ -55,7 +58,7 @@
      </tr>
   </table>
 
-- **폴더 구조**
+## 📁 폴더 구조
 
   ```
   📂 all_project
@@ -87,12 +90,29 @@
    │  ├─ models.py
    │  ├─ tests.py
    │  └─ views.py
+   ├─ static/
+   │  ├─ css/
+   │    ├─ main2.css
+   │    ├─ match_done2.css
+   │    ├─ match2.css
+   │    ├─ mypage2.css
+   │  ├─ iamge/
+   │    ├─ default_image.png
+   │    ├─ header-logo2.png
+   │    ├─ login-icon2.png
+   │    ├─ main2.png
    └─ manage.py
   ```
 
-- **개발환경에서의 실행 방법**
+  - **개발환경에서의 실행 방법**
   ```
   $ django-admin startproject MatchZzic
   $ python manage.py runserver
   ```
-  <hr/>
+- **정보 구조도**
+  ![image](https://github.com/2023-HERETHON/2023-Herethon-7/assets/102652293/2c2788db-a1d9-4cc8-9911-af958b657b33)
+
+- **플로우**
+  ![image](https://github.com/2023-HERETHON/2023-Herethon-7/assets/102652293/ff88863f-9901-4c44-aae5-e491bd6e8342)
+
+<hr/>
