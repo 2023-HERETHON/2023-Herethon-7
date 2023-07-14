@@ -3,6 +3,9 @@ from .models import User, TempUser
 from .forms import UserForm, TempUserForm
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
+from django.conf import settings
+import os
+
 
 
 def first(request):
@@ -75,7 +78,6 @@ def login(request):
 
         return render(request, 'login.html',response_data)
 
-@login_required
 def mypage(request):
     user_instance = request.user
     
