@@ -84,16 +84,23 @@ iconify-icon {
   border-radius: 18px;
 }
 
-.username {
+.match_username {
   position: absolute;
-  left: 50%;
-  top: 3.5%;
+  left: calc(50% - 35px / 2 + 0.5px);
+  top: 15%;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
 }
-.username img {
+.match_username img {
   position: absolute;
   width: 11.53px;
   left: calc(50% - 11.53px / 2 - 31.74px);
-  top: 18%;
+  top: 15%;
   bottom: 64.92%;
 }
 .username span {
