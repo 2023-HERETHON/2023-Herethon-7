@@ -24,6 +24,18 @@
         width: 11.53px;
         top: 100%;
       }
+
+      .text_place span {
+        position: absolute;
+        left: 80%;
+        font-family: "Noto Sans KR";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+
+        color: rgba(26, 61, 255, 1);
+      }
     </style>
   </head>
   <body>
@@ -42,7 +54,9 @@
         </div>
       </div>
       <div class="text">동행이&nbsp; <span>매칭</span>되었습니다</div>
-      <div class="text_place">동행할 여행지 {{ user_travel_to }}</div>
+      <div class="text_place">
+        동행할 여행지 <span> {{ user_travel_to }}</span>
+      </div>
       {% comment %} 여행지 받아서 담아야 함 {% endcomment %}
       <div class="matching_user">
         <div class="match_username">
